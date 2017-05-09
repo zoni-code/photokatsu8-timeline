@@ -52,7 +52,7 @@ export default {
       lanes: laneDataRepository.getInitialData(),
       arrows: null,
       timeline: {
-        endTimestamp: dayEndTime(new Date(2017, 4, 8, 0, 0, 0)).getTime(),
+        endTimestamp: dayEndTime(new Date(2017, 4, 9, 0, 0, 0)).getTime(),
         startTimestamp: dayStartTime(new Date(2017, 3, 25, 0, 0, 0)).getTime(),
         secondsPerPixel: 10
       }
